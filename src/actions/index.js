@@ -13,12 +13,12 @@ export const increment = () => {
   console.log("The increment() function was triggered!");
   return {
     type: INCREMENT
-  }
+  };
 };
 
 export const decrement = () => {
   console.log("The decrement() function was triggered!");
   return {
     type: DECREMENT
-  }
+  };
 };
